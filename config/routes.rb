@@ -9,7 +9,13 @@ Rails.application.routes.draw do
  # get 'pages/homepage' , to: 'pages#homepage'
  # get 'pages/about' , to: 'pages#about'
     root 'pages#homepage'
-  get 'about' , to: 'pages#about'
+    get 'about' , to: 'pages#about'
+    get 'search', to: 'pages#search'
+    get 'sunglasses', to: 'pages#sunglasses'
+    get 'glasses', to: 'pages#glasses'
+  
+  #DB table names
+  resources :articles
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
