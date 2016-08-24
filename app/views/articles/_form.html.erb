@@ -1,14 +1,4 @@
-<% if false %> <%= link_to 'All articles' , articles_path %> <% end %>
-
-<!-- Error Notifications -->
-<% if @article.errors.any? %>
-<h2> The following errors prevented the article from getting created </h2>
-<ul>
-<% @article.errors.full_messages.each do |msg| %>
-<li><%= msg %>
-  </ul>
-  <% end %>
-  <% end %>
+<%= render 'shared/errors' , obj: @article %>
 
 <div class="row">
   <div class="col-sm-12">
