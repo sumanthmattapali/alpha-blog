@@ -23,7 +23,7 @@ $navbar-default-bg: #ffe6b3;
 }
 .jumbotron
 {
-  background-image: url("sunglass.jpg");
+  background-image:  asset-url("sunglass.jpg");
   background-size: cover;
   height: 550px;
 }
