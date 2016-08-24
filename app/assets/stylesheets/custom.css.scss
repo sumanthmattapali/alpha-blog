@@ -2,12 +2,19 @@ $navbar-default-bg: #FAF6DF;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 
 html
 {
   overflow-x: hidden;
 }
 
+body
+{
+  background-color: black;
+}
 #logo {
   float: left;
   font-size: 1.7em;
@@ -30,7 +37,7 @@ html
   background-image:  asset-url("sunglass.jpg");
   background-size: cover;
   height: 550px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .jumbotron h1 {
@@ -48,13 +55,6 @@ html
 
 .description {
   margin-top: 10px;
-}
-
-.custom_footer {
-  background-color: #FAF6DF;
-  width: auto;
-  padding-top: 100px;
-  border-top: 1px;
 }
 
 .sunglass-cus3 {
@@ -78,28 +78,16 @@ html
   padding-top: 5px;
 }
 
-footer {
-   border : 2px solid black;
-  margin: 15px;
-  padding-top: 5px;
-  overflow:hidden
-}
+//Footer Styles
 
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
+footer
+{
+  background-color: #FAF6DF;
+  width: auto;
+  height: 150px;
 
 }
-
-footer ul {
+small
+{
   float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
 }
