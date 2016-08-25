@@ -1,26 +1,45 @@
 <footer>
   <div class="container">
-<div class="row">
-  <div class="col-xs-4">
-        <ul>    <li>Hello</li> </ul>
+<div class="row" id="row">
 
+  <div class="col-xs-4 custom_footer web-links">
+    <ul>
+      <%= link_to "Home" , root_path %><br/>
+      <%= link_to "About-us" , about_path %><br/>
+      <%= link_to "Sunglasses", sunglasses_path %> <br/>
+      <%= link_to "Glasses", glasses_path %> <br/>
+      <%= link_to "List of Articles", articles_path %> <br/>
+    </ul>
   </div>
 
-  <div class="col-xs-4">
-    <ul>    <li>Hello</li> 
-      <li> <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li></ul>
+  <div class="col-xs-4 footer-logo">
   </div>
 
-  <div class="col-xs-4 navbar-text pull-right">
-    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
 
-
+  <div class="col-xs-4 custom_footer">
+        <address>
+          Sunglasses.ie <br/>
+          23a Dawson Street <br/>
+          Dublin2 <br/>
+          Ireland <br/>
+          Visit us at: <a href="www.sunglasses.ie">Sunglasses.ie</a><br>
+        </address>
   </div>
-
 
     </div>
+
+    <div class="row">
+  <div class="col-sm-6 custom_footer" id="social-links">
+       <a href="#"> <i class="fa fa-facebook fa-3x"> </i></a>
+      <a href="#">  <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
+      <a href="#"> <i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+      <a href="#"> <i class="fa fa-youtube fa-3x" aria-hidden="true"> </i></a>
+      <a href="#"> <i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+  </div>
+    </div>
+
 <small>
-  Copyright &copy; <%= link_to 'Sunglasses Ireland' , root_path %>
+  <h5 align="right"> Copyright &copy; <%= link_to 'Sunglasses Ireland' , root_path %> </h5>
     </small>
   </div>
       </footer>

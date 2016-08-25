@@ -6,14 +6,16 @@ $navbar-default-bg: #FAF6DF;
 @import "font-awesome";
 
 
+
 html
 {
   overflow-x: hidden;
 }
 
+
 body
 {
-  background-color: black;
+  background-color: #98C6BF;
 }
 #logo {
   float: left;
@@ -84,10 +86,62 @@ footer
 {
   background-color: #FAF6DF;
   width: auto;
-  height: 150px;
 
 }
-small
+
+
+.custom_footer
 {
-  float: right;
+   margin-top: 25px;
+
+    height: auto;
+  width: auto;
+    font-weight: bold ;
+  font-size: 1.7em ;
+
+}
+
+.web-links
+{
+  margin-right: 175px;
+    font-weight: bold ;
+  font-size: 1.7em ;
+
+}
+
+.footer-logo
+{
+  width: 200px;
+  height: 200px;
+  background-image: asset-url("sunglasslogo.jpg");
+  margin-right: 175px;
+   margin-top: 25px;
+
+}
+
+address {
+
+
+    display: block;
+    font-style: italic;
+}
+
+#row
+{
+  height: auto;
+}
+
+#social-links
+{
+
+  display: inline-block;
+  margin-left:25%;
+}
+
+.web-links , .ul
+
+{
+
+  color: green;
+
 }
